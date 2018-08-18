@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "732741463639",
+    "firebase_url": "https://acompanhamentos-4d572.firebaseio.com",
+    "project_id": "acompanhamentos-4d572",
+    "storage_bucket": "acompanhamentos-4d572.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:732741463639:android:590fc77bfac17a94",
+        "android_client_info": {
+          "package_name": "com.alerta.robso.acompanhamentos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "732741463639-rhhdq4pvslanlovev0enjoavrm6r8v35.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alerta.robso.acompanhamentos",
+            "certificate_hash": "01e884b0be757d4da5a4e49892badca1d501aed4"
+          }
+        },
+        {
+          "client_id": "732741463639-jss98kskuhl99fgdu30eaqkg9lf2oubd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBujt45mC6_oZ9W1ydFM70Us7xS962raB0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "732741463639-jss98kskuhl99fgdu30eaqkg9lf2oubd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
