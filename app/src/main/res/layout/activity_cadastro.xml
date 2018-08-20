@@ -1,55 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.alerta.robso.acompanhamentos.Activity.Cadastro">
+    android:orientation="vertical">
 
-    <EditText
-        android:id="@+id/emailcadId"
-        android:layout_width="326dp"
-        android:layout_height="39dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="188dp"
-        android:background="?attr/colorButtonNormal"
-        android:ems="10"
-        android:hint="Informe seu e-mail"
-        android:inputType="textEmailAddress"
-        android:textColorHint="@android:color/black"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
-        android:id="@+id/senhacadId"
-        android:layout_width="324dp"
-        android:layout_height="38dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="36dp"
-        android:background="?attr/colorButtonNormal"
-        android:ems="10"
-        android:hint="Informe sua senha"
-        android:inputType="textPassword"
-        android:textColorHint="@android:color/black"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/emailcadId" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
 
-    <ImageButton
-        android:id="@+id/botaocadastroId"
-        android:layout_width="202dp"
-        android:layout_height="68dp"
-        android:layout_marginBottom="152dp"
-        android:layout_marginTop="24dp"
-        android:background="@android:color/transparent"
-        android:scaleType="fitXY"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/senhacadId"
-        app:srcCompat="@drawable/ok" />
+        <!--<EditText
+            android:id="@+id/emailcadId"
+            android:layout_width="326dp"
+            android:layout_height="39dp"
+            android:hint="Informe seu e-mail"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@android:color/black" />-->
 
-</android.support.constraint.ConstraintLayout>
+        <!--<EditText
+    android:id="@+id/senhacadId"
+    android:layout_width="324dp"
+    android:layout_height="38dp"
+    android:hint="Informe sua senha"
+    android:inputType="textPassword"
+    android:textColorHint="@android:color/black" />-->
+
+        <ImageView
+            android:layout_width="230dp"
+            android:layout_height="230dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+
+            app:srcCompat="@drawable/user" />
+
+        <EditText
+            android:id="@+id/emailcadId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="35dp"
+
+            android:hint="Informe seu Email"
+            android:inputType="textEmailAddress"
+            android:textSize="10pt" />
+
+        <EditText
+            android:id="@+id/senhacadId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="5dp"
+
+            android:hint="Informe sua Senha"
+            android:inputType="textEmailAddress"
+            android:textSize="10pt" />
+
+        <ImageButton
+            android:id="@+id/botaocadastroId"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginTop="35dp"
+
+            android:background="#FFF"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/icon_login" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
